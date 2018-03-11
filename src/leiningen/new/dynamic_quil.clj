@@ -14,4 +14,6 @@
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)]
              ["src/{{sanitized}}/dynamic.clj" (render "dynamic.clj" data)]
              ["project.clj" (render "project.clj" data)]
+             [".gitignore" (render "gitignore" data)]
+             ["README.md" (render "README.md" data)]
              )))
