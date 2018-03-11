@@ -1,6 +1,6 @@
 (ns {{name}}.core
-  (:require {{name}}.dynamic :as dynamic))
-
+  (:require [quil.core :as q])
+  (:require [{{name}}.dynamic :as dynamic]))
 
 (defn sketch []
   (println 'hello))
